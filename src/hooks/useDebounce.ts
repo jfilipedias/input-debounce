@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 
-export function useDebounce(callback: (...args: any[]) => void, delay = 1000) {
+export function useDebounce(callback: (...args: any[]) => void, delay = 500) {
   const timeoutIdRef = useRef<number | null>(null)
 
   return (...args: any[]) => {
