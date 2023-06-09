@@ -26,6 +26,7 @@
   ],
   "rules": {
     "camelcase": "off",
+    "n/no-callback-literal": "off",
     "prettier/prettier": [
       "error",
       {
